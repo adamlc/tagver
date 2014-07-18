@@ -1,0 +1,23 @@
+{
+    "name": "adamlc/tagver",
+    "description": "Automatically tag the next version number in Git using Semver",
+    "require": {
+        "symfony/console": "~2",
+        "symfony/process": "~2",
+        "vierbergenlars/php-semver": "~2"
+    },
+    "bin": ["bin/tagver"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Curtis",
+            "email": "me@alc.im"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Adamlc\\Tagver\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
